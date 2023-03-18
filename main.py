@@ -6,5 +6,14 @@ import time
 
 time.sleep(30)
 
-with gui.hold("win")
-    gui.press("d")
+# Go to Desktop
+gui.keyDown("win")
+gui.press("d")
+gui.keyUp("win")
+
+# open start menue 
+gui.press("win")
+
+# search notepad
+gui.ty
+
