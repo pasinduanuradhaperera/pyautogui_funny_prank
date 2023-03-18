@@ -15,5 +15,13 @@ gui.keyUp("win")
 gui.press("win")
 
 # search notepad
-gui.ty
+gui.write("note pad")
 
+# wait to open 
+time.sleep(10)
+
+# type you messege 
+for i in range(100):
+  gui.write("your messege here")
+  gui.press("enter")
+  
